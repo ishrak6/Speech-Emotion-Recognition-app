@@ -36,12 +36,17 @@ Follow these steps to set up and run the application:
 
 The application should now be ready to run. You can deploy it on an Android device or emulator.
 
+## Contributors
+
+- Nasemul Goni Ishrak
+- Md. Rohul Amin Sany
+- Md. Fouad Hasan Talukder
+
 ## Screenshots
 
 Include screenshots or images of the app interface to help users understand how the app looks and functions.
 
-
 ## Acknowledgments
 
 - This app utilizes the Vokaturi API for speech-emotion recognition.
-- Emotional analysis from text is performed using the Google Cloud NLP service API.
+- Emotion analysis from text is performed using the Google Cloud NLP service API.
