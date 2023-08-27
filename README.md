@@ -40,9 +40,6 @@ The application should now be ready to run. You can deploy it on an Android devi
 
 Include screenshots or images of the app interface to help users understand how the app looks and functions.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
