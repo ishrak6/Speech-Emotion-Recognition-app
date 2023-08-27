@@ -1,22 +1,52 @@
-#Speech-Emotion-Recognition-app
+# Speech-Emotion Recognition App
 
+This repository contains a demo application that utilizes the Vokaturi API for speech emotion recognition and the Google Cloud NLP service API for text-based emotion analysis. The app offers two modes of input: voice-to-text conversion for analyzing spoken emotions and text input for analyzing emotions from typed text.
 
-An emotion recognition demo application using vokaturiApi
-and Google Cloud service [Cloud NLP service API](https://cloud.google.com/natural-language/docs/samples?hl=zh-tw)<br/>
-It also includes simple voice-to-text for sensing emotion, or you want to type text to sense your emotion is also ok.<br/>
-Press the little green button to recognize text typed on EditText.
+## Features
 
-Step 1.
-Goto [Cloud NLP service API](https://cloud.google.com/natural-language/docs/samples?hl=en-us) apply for free 12month subscription <br/>
-<br/>
+- Recognize emotions from speech using the Vokaturi API.
+- Analyze emotions from text using the Google Cloud NLP service API.
+- Voice-to-text conversion for spoken emotion analysis.
+- Text input option is available for emotion analysis.
+- User-friendly interface with a convenient recognition button.
 
-Step 2.
-Follow the instructions and create an `API Key`. 
+## Getting Started
 
-Step 3.
-Copy the `API Key`, in line`66` of `MainActivity`, <br/>
-Replace `public static final String API_KEY = "AIzaSyCWDasfakslfasgaKmTMTTTwdxvACJc "` with your API key.
-<img src="https://github.com/ycfelix/EmotionRecognizer/blob/master/screenshot/code.png"
-data-canonical-src="https://github.com/ycfelix/EmotionRecognizer/blob/master/screenshot/code.png" width="540" height="200" />
-Step 4.
-I think it's ready to run.
+Follow these steps to set up and run the application:
+
+### Step 1: Cloud NLP Service API Subscription
+
+1. Go to [Cloud NLP Service API](https://cloud.google.com/natural-language/docs/samples?hl=en-us).
+2. Apply for a free 12-month subscription.
+
+### Step 2: Obtain API Key
+
+1. Follow the instructions on the Cloud NLP Service API page to create an API Key.
+
+### Step 3: Integrate API Key
+
+1. In the `MainActivity.java` file, locate line `66`.
+2. Replace the value of `API_KEY` with your actual API Key obtained in Step 2.
+
+   ```java
+   public static final String API_KEY = "YOUR_API_KEY_HERE";
+   ```
+
+### Step 4: Run the Application
+
+The application should now be ready to run. You can deploy it on an Android device or emulator.
+
+## Screenshots
+
+Include screenshots or images of the app interface to help users understand how the app looks and functions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- This app utilizes the Vokaturi API for speech-emotion recognition.
+- Emotion analysis from text is performed using the Google Cloud NLP service API.
+
+Feel free to customize the README further with additional information, installation instructions, troubleshooting tips, and any other relevant details.
