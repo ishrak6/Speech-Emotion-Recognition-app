@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/profile_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ScrollView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="6 ways to take care of your mental health and well-being this World Mental Health Day"
+                        android:gravity="center_horizontal" />
+
+
+                    //1
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="1. Talk to someone you trust\n\n
+
+Talking to someone you trust – whether a friend, a family member, or a colleague – can help. You may feel better if you are able to openly share what you are going through with someone who cares about you. If you live in an area where face-to-face interactions are limited, you can still stay connected with your loved ones through a video call, phone call or messaging app."
+                        android:gravity="center_horizontal" />
+                    //2
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text=""
+                        android:gravity="center_horizontal" />
+                    //3
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="2. Look after your physical health\n\n
+
+Taking care of your physical health helps improve your mental health and well-being. Be active for at least 30 minutes daily, whether that’s running, walking, yoga, dancing, cycling, or even gardening. Eat a balanced and healthy diet. Make sure to get enough sleep."
+                        android:gravity="center_horizontal" />
+                    //4
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="3. Do activities that you enjoy\n\n
+
+Try to continue doing the activities that you find meaningful and enjoyable, such as cooking for yourself or your loved ones, playing with your pet, walking in the park, reading a book, or watching a film or TV series. Having a regular routine with activities that make you feel happy will help you maintain good mental health."
+                        android:gravity="center_horizontal" />
+                    //5
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="4. Steer away from harmful substances\n\n
+
+Don’t use harmful substances such as drugs, kava, alcohol or tobacco to cope with what you’re feeling. Though these may seem to help you feel better in the short term, they can make you feel worse in the long run. These substances are also dangerous and can put you and those around you at risk of diseases or injuries."
+                        android:gravity="center_horizontal" />
+                    //6
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="5. Take two minutes to focus on the world around you
+
+\n\nHelp free yourself of constantly swirling thoughts by reconnecting yourself with where you are at this moment in time. Follow along with the video below or simply take three slow deep breaths, feel your feet grounded on the floor and ask yourself:
+
+\nWhat are five things I can see?
+\nWhat are four things I can hear?
+\nWhat can I smell?
+\nWhat does it feel like to touch my knees or a something else I can reach? How does it feel underneath my fingers?"
+                        android:gravity="center_horizontal" />
+                    //7
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="6. Seek professional help\n\n
+
+If you feel like you cannot cope with the stress that you are facing, seek professional help by calling your local mental health helpline or getting in touch with your counsellor or doctor.  Remember you are not alone, and there are things you can do to support your emotional wellbeing."
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

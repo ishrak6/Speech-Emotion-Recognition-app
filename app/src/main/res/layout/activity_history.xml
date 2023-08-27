@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/profile_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ScrollView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:background="@color/white"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_below="@id/main_constraint"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        <android.support.v7.widget.SearchView
+                            android:maxLength="11"
+
+                            android:layout_margin="10dp"
+                            android:visibility="gone"
+                            android:background="@drawable/border"
+
+                            app:queryHint="Search By Date"
+                            android:textColor="@color/white"
+                            android:inputType="number"
+
+                            android:layout_width="match_parent"
+                            android:id="@+id/name"
+                            android:layout_marginBottom="0dp"
+                            android:layout_height="50dp"
+                            ></android.support.v7.widget.SearchView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+
+
+                            <android.support.v7.widget.RecyclerView
+                                android:layout_marginTop="25dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_width="match_parent"
+                                android:id="@+id/rreeeed"
+                                android:layout_marginBottom="50dp"
+                                android:layout_height="wrap_content"
+                                ></android.support.v7.widget.RecyclerView>
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

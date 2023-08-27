@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/profile_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ScrollView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_below="@id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="false"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:text="
+ Md. Fouad Hasan Talukder\nID: 193902002
+\nDepartment of CSE
+\nGreen University of Bangladesh."
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_below="@id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="false"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:text="
+\nNasemul Goni Ishrak
+\nID: 193902003
+\nDepartment of CSE
+\nGreen University of Bangladesh."
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_below="@id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="false"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:text="
+\nMd Rohul Amin Sany
+\nID: 193902010
+\nDepartment of CSE
+\nGreen University of Bangladesh."
+        android:gravity="center_horizontal" />
+</LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
