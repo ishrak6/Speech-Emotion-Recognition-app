@@ -57,6 +57,22 @@
                         android:gravity="center_horizontal" />
 
 
+                    <TextView
+                        android:layout_below="@id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="false"
+                        android:padding="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="0dp"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
+                        android:text="In today's world people racing against time. So now day's depression and anger issue are becoming more and more common mental issues. Which led us to heart us or people close to us. So here is some trips to take care of our mental health:"
+                        android:gravity="center_horizontal" />
+
                     //1
                     <TextView
                         android:layout_below="@id/image4"
