@@ -47,6 +47,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - This app utilizes the Vokaturi API for speech-emotion recognition.
-- Emotion analysis from text is performed using the Google Cloud NLP service API.
-
-Feel free to customize the README further with additional information, installation instructions, troubleshooting tips, and any other relevant details.
+- Emotional analysis from text is performed using the Google Cloud NLP service API.
