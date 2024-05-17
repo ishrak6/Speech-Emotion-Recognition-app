@@ -38,7 +38,9 @@ The application should now be ready to run. You can deploy it on an Android devi
 
 ## Contributors
 
+- Md. Fouad Hasan Talukder
 - Nasemul Goni Ishrak
+- Md. Rohul Amin Sany
 
 ## Screenshots
 
